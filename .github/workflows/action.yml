@@ -36,4 +36,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/TobiasSkolestuff:latest.img
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/tobias_tonndorff:latest.img
