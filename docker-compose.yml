@@ -3,7 +3,7 @@
 
   services:
     api:
-      image: webtrade/ci_cd_javalin_demo:latest
+      image: tobiastonndorff/tobias_tonndorff:latest
       container_name: app
       environment:
         CONNECTION_STR: ${CONNECTION_STR}
