@@ -1,4 +1,4 @@
-FROM eclipse-temurin_17-alpine
+FROM eclipse-temurin:17-alpine
 # .jar file copied from target folder
 COPY target/app.jar /app.jar
 
