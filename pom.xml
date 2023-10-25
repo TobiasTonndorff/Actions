@@ -202,6 +202,16 @@
     <build>
     <finalName>app</finalName> <!-- This is the name of the jar file -->
     <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.2.1</version>
+            <configuration>
+                <includes>
+                    <include>Sample.java</include>
+                </includes>
+            </configuration>
+        </plugin>
     <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
